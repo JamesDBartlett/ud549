@@ -18,7 +18,6 @@ describe('Address Book', function() {
 });
 
 describe('Async Address Book', function() {
-  var since = require('jasmine2-custom-message');
   let addressBook = new AddressBook();
   beforeEach(function(done) {
     addressBook.getInitialContacts(function() {

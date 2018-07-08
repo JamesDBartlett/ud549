@@ -8,8 +8,8 @@ AddressBook.prototype.addContact = function(add) {
 AddressBook.prototype.getContact = function(i) {
   return this.contacts[i];
 }
-AddressBook.prototype.deleteContact = function(contact) {
-  this.contacts.pop(contact);
+AddressBook.prototype.deleteContact = function(del) {
+  this.contacts.pop(del);
 }
 AddressBook.prototype.getInitialContacts = function(cb) {
   let self = this;
