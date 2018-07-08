@@ -1,9 +1,4 @@
-// Jasmine2 Custom Message
-// https://github.com/avrelian/jasmine2-custom-message
-// require('jasmine2-custom-message');
-
 describe('Address Book', function() {
-
   let addressBook, thisContact;
 
   beforeEach(function() {
@@ -23,6 +18,7 @@ describe('Address Book', function() {
 });
 
 describe('Async Address Book', function() {
+  var since = require('jasmine2-custom-message');
   let addressBook = new AddressBook();
   beforeEach(function(done) {
     addressBook.getInitialContacts(function() {
