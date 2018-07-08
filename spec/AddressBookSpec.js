@@ -1,3 +1,5 @@
+require('jasmine2-custom-message');
+
 describe('Address Book', function() {
 
   let addressBook, thisContact;
