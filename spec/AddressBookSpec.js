@@ -1,4 +1,6 @@
-require('jasmine2-custom-message');
+// Jasmine2 Custom Message
+// https://github.com/avrelian/jasmine2-custom-message
+// require('jasmine2-custom-message');
 
 describe('Address Book', function() {
 
